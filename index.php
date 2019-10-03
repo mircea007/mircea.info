@@ -95,7 +95,7 @@
 	    <h1 align = "center"> NODE.JS </h1>
 		<div class = "line"></div>
 		<div>I recently strarted working with <a href = "https://nodejs.org/">NODE.JS</a> beacuse i wanted to program multiplayer video games.
-		Right now i have made only one: <a href = "airborne01.herokuapp.com">Airborne</a> with the help of <a href = "heroku.com">Heroku</a> for hosting my site.
+		Right now i have made only one: <a href = "https://airborne01.herokuapp.com/">Airborne</a> with the help of <a href = "https://heroku.com/">Heroku</a> for hosting my site.
 		I think Node.js is a great langudge because you don't need to learn almost anything new because it has the same syntax and functionalities of JavaScript.
 		</div>
 	  </div>
