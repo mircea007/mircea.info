@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<hmtl>
+<body>
+<pre id = "gimme_ze_code"><span></span></pre>
+
+<script>
+
+var code;
+var text = document.getElementById("gimme_ze_code");
+var poz = 2;
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function(){
+  if (this.readyState == 4 && this.status == 200) {
+    code = this.responseText;
+    
+    function addLetter(){
+      text.innerHTML = code.substr(0, poz) + '<span>&block;</span>';
+      window.scrollTo(0,document.body.scrollHeight);
+      poz += 2;
+    }
+    
+    function update(){
+      cursor = document.getElementsByTagName("span")[0];
+      
+      if( Math.floor(Date.now() / 750) % 2 == 0 )
+        cursor.innerHTML = '&block;';
+      else
+        cursor.innerHTML = '';
+        
+      setTimeout(update, 10);
+    }
+    
+    update();
+    document.addEventListener("keydown", addLetter);
+  }
+};
+xhttp.open("GET", "code.txt", true);
+xhttp.send();
+
+
+
+
+
+</script>
+
+<style>
+body {
+  background-color: black;
+  color: rgb( 0, 255, 127 );
+}
+</style>
+
+</body>
+</html>

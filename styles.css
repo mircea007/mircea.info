@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background: url("b2.png");
+  font-family: Verdana, Helvetica, sans-serif;
+  color: white;
+}
+a {
+  transition: 0.3s;
+  padding: 8px 8px;
+  font-weight: bold;
+  color: white;
+}
+a:hover {
+  background-color: red;
+}
