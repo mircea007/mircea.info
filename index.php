@@ -30,7 +30,7 @@
 	  <div>
 		<h1 align = "center"> About Me </h1>
 		<div class = "big-line"></div>
-	    <div>I am a <b>5</b>th grader. I study programming.<br>
+	    <div>I am a <b>6</b>th grader. I study programming.<br>
 	    I program in <b>C</b> and <b>Python</b> and many other languadges and I code whenever I have free time.</div>
 	  </div>
 		<div>
@@ -89,6 +89,14 @@
 		<div class = "line"></div>
 		<div>I recomend <a href = "http://scratch.mit.edu/">Scratch</a> for people who don't know how to <i>code</i>
 		because in Scratch you program visualy(but you should still try the other languadges because with the other ones you can create more complex things).
+		</div>
+	  </div>
+          <div>
+	    <h1 align = "center"> NODE.JS </h1>
+		<div class = "line"></div>
+		<div>I recently strarted working with <a href = "https://nodejs.org/">NODE.JS</a> beacuse i wanted to program multiplayer video games.
+		Right now i have made only one: <a href = "airborne01.herokuapp.com">Airborne</a> with the help of <a href = "heroku.com">Heroku</a> for hosting my site.
+		I think Node.js is a great langudge because you don't need to learn almost anything new because it has the same syntax and functionalities of JavaScript.
 		</div>
 	  </div>
 	  <br><br>
