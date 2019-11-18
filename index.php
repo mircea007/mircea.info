@@ -101,7 +101,7 @@
 	  </div>
 	  <br><br>
 	  <div class = "Tm">
-	   <b>a special thanks to: </b> <i><a href = "https://tiberiu.info/">Tiberiu Musat</a></i><span style = "opacity: 0.5;">( my cousin )</span>for hosting this site. 
+	   <b>a special thanks to: </b> <i><a href = "https://heroku.com/">Heroku</a></i> for hosting this site. 
 	  </div>
 	  <br>
 	  </div>
