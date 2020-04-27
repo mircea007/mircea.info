@@ -38,9 +38,23 @@
 		<div class = "big-line"></div>
 		<div class = "tabs">
 		  <button class = "tab" onclick = "setTab(event, '2019')" id = "default">2019</button>
+		  <button class = "tab" onclick = "setTab(event, '2020')">2020</button>
 		</div>
 		<div class = "tab-content" id = "2019">
 		  <div class = "prize">National Olimpiad of Informatics Bronze Medal</div>
+		</div>
+		<div class = "tab-content" id = "2020">
+		 <h3><span class = "rainbow c1">C</span><!-
+                 --><span class = "rainbow c2">O</span><!-
+                 --><span class = "rainbow c3">R</span><!-
+                 --><span class = "rainbow c4">O</span><!-
+                 --><span class = "rainbow c5">N</span><!-
+                 --><span class = "rainbow c6">A</span><!-
+                 --><span class = "rainbow c7">V</span><!-
+                 --><span class = "rainbow c8">I</span><!-
+                 --><span class = "rainbow c9">R</span><!-
+                 --><span class = "rainbow c10">U</span><!-
+                 --><span class = "rainbow c11">S</span></h3>
 		</div>
 		</div>
 		<div>
@@ -384,6 +398,32 @@
       left: 50px;
     }
   }
+  @keyframes rainbow{
+    0%  {color: red}
+    17%  {color: orange}
+    33%  {color: yellow}
+    50%  {color: #00ff00}
+    67%  {color: blue}
+    84%  {color: violet}
+    100% {color: red}
+  }
+  .rainbow{
+    animation-name: rainbow;
+    animation-duration: 4.2s;
+    animation-iteration-count: infinite;
+  }
+     
+  .c1  { animation-delay: -0.0s; }
+  .c2  { animation-delay: -0.6s; }
+  .c3  { animation-delay: -1.2s; }
+  .c4  { animation-delay: -1.8s; }
+  .c5  { animation-delay: -2.4s; }
+  .c6  { animation-delay: -3.0s; }
+  .c7  { animation-delay: -3.6s; }
+  .c8  { animation-delay: -0.0s; }
+  .c9  { animation-delay: -0.6s; }
+  .c10 { animation-delay: -1.2s; }
+  .c11 { animation-delay: -1.8s; }
   </style>
 </html>
 
