@@ -37,8 +37,8 @@
 		<h1 align = "center"> Awards </h1>
 		<div class = "big-line"></div>
 		<div class = "tabs">
-		  <button class = "tab" onclick = "setTab(event, '2019')" id = "default">2019</button>
-		  <button class = "tab" onclick = "setTab(event, '2020')">2020</button>
+		  <button class = "tab" onclick = "setTab(event, '2019')">2019</button>
+		  <button class = "tab" onclick = "setTab(event, '2020')" id = "default">2020</button>
 		</div>
 		<div class = "tab-content" id = "2019">
 		  <div class = "prize">National Olimpiad of Informatics Bronze Medal</div>
@@ -120,7 +120,8 @@
 	          In 6th grade I had the oportunity to get a linux dual boot. I tried it and it was <b>AWSOME</b>. The shels are mutch better than command prompt, you have thousands of desktop
 	          enviorments to chose from and there are hundreds of distros (rigth now i have Ubuntu )': but i wish to go to Arch linux). There are editors sutch as emacs and vim. And many apps
 		  have linux versions, and if they don't you can just use wine (windows eumlator for linux). And also keep in mind that linux is free (unlike other OSes). It has mutch better security
-		  that windows and macOS. It can be used for machines from 10 years ago and for supercomputers. There is practically no reason not to use linux.
+		  that windows and macOS. It can be used for machines from 10 years ago and for supercomputers. Here I just scratched the surface of what is possible with linux so I highly recomend at
+		  least trying linux.
 		</div>
 	  </div>
 	  <br><br>
