@@ -30,8 +30,8 @@
 	  <div>
 		<h1 align = "center"> About Me </h1>
 		<div class = "big-line"></div>
-	    <div>I am a <b>6</b>th grader. I study programming.<br>
-	    I program in <b>C</b> and <b>Python</b> and many other languadges and I code whenever I have free time.</div>
+	    <div>I am a <b>7</b>th grader. I study programming.<br>
+	    I program in <b>C</b>, <b>Python</b> and many other languadges. I code whenever I have free time.</div>
 	  </div>
 		<div>
 		<h1 align = "center"> Awards </h1>
@@ -98,19 +98,29 @@
 		With the help of some <b>PHP</b> you can view and store data. A database has it's own <b>tables</b> which contain the actual data. I suggest learning <b>MySQL</b>
 		so that you can store accounts and other usefull data.</div>
 	  </div>
-	  <div>
+	  <!--<div>
 	    <h1 align = "center"> SCRATCH </h1>
 		<div class = "line"></div>
 		<div>I recomend <a href = "http://scratch.mit.edu/">Scratch</a> for people who don't know how to <i>code</i>
 		because in Scratch you program visualy(but you should still try the other languadges because with the other ones you can create more complex things).
 		</div>
-	  </div>
+	  </div>-->
           <div>
 	    <h1 align = "center"> NODE.JS </h1>
 		<div class = "line"></div>
-		<div>I recently strarted working with <a href = "https://nodejs.org/">NODE.JS</a> beacuse i wanted to program multiplayer video games.
+		<div>I strarted working with <a href = "https://nodejs.org/">NODE.JS</a> beacuse i wanted to program multiplayer video games.
 		Right now i have made only one: <a href = "https://airborne01.herokuapp.com/">Airborne</a> with the help of <a href = "https://heroku.com/">Heroku</a> for hosting my site.
 		I think Node.js is a great langudge because you don't need to learn almost anything new because it has the same syntax and functionalities of JavaScript.
+		</div>
+	  </div>
+          <div>
+	    <h1 align = "center"> Bash & Linux (sorry zsh) </h1>
+		<div class = "line"></div>
+		<div>
+	          In 6th grade I had the oportunity to get a linux dual boot. I tried it and it was <b>AWSOME</b>. The shels are mutch better than command prompt, you have thousands of desktop
+	          enviorments to chose from and there are hundreds of distros (rigth now i have Ubuntu )': but i wish to go to Arch linux). There are editors sutch as emacs and vim. And many apps
+		  have linux versions, and if they don't you can just use wine (windows eumlator for linux). And also keep in mind that linux is free (unlike other OSes). It has mutch better security
+		  that windows and macOS. It can be used for machines from 10 years ago and for supercomputers. There is practically no reason not to use linux.
 		</div>
 	  </div>
 	  <br><br>
